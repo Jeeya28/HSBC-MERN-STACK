@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+            background-image: linear-gradient(90deg, goldenrod, yellow);
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Sample Table</h1>
+    <hr>
+
+    <table border="1" align="center" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <h1 align="center">Employee Details</h1>
+<hr>
+<table border="1" cellspacing="0" cellpadding="10" align="center">
+    <colgroup>
+        <col span="3" bgcolor="powderblue">
+        <col span="2" bgcolor="gree">
+    </colgroup>
+   
+    <thead>
+        <tr >
+            <th>ID</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Salary</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2">100</td>
+        
+            <td>Developer</td>
+            <td>50000</td>
+            <td>
+                <button > Edit </button>
+                <button> Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                200
+            </td>
+            <td>Ravi </td>
+            <td>Test Engineer</td>
+            <td rowspan="3">60000</td>
+            <td>
+                <button > Edit </button>
+                <button> Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                200
+            </td>
+            <td>Ravi </td>
+            <td>Test Engineer</td>
+        
+            <td>
+                <button > Edit </button>
+                <button> Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                200
+            </td>
+            <td>Ravi </td>
+            <td>Test Engineer</td>
+       
+            <td>
+                <button > Edit </button>
+                <button> Delete</button>
+            </td>
+        </tr>
+       
+    </tbody>
+    <tfoot>
+        <tr >
+            <td bgcolor="yellow" colspan="5" align="center">&copy; 2026 IBM Employee Details</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>

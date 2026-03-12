@@ -1,0 +1,119 @@
+Web applications
+-----------------
+
+->Types of Web applications 
+    1. Static Web applications 
+        -> HTML , CSS (doesn't have Functionalities ) 
+    2. Dynamic Web applications
+        ->HTML , CSS , Javascript (any applications having Functionalities )
+
+
+              ->Web Pages 
+
+
+HTML : 
+-------
+     
+
+HTML Elements 
+     1. Block Level Elements 
+        Ex: heading Tags > 6
+     2. InLine Level Elements 
+        ->Elements which will consumes only Content Width 
+         
+         Ex: formatting tags 
+                    1. <b></b>
+                    2. <strong ></strong>
+                    3.<em></em>
+                    4. <i></i>
+                    5. <sub></sub>
+                    6. <sup></sup>
+                    7. <u></u>
+                    8. <mark></mark>
+                    9. <strike></strike>
+
+attribute in HTML: 
+--------------------
+    ->Additional information give to the tag 
+    ->only in opening that i need to write to attributes 
+
+        Ex: <h1 algin="center">   HELLO </h1>
+
+
+List In HTML : 
+--------------
+    1. order list 
+        ->tags in order List  
+            1. <ol></ol>
+            2. <li></li>
+        ->attribute in order list
+            1. start 
+            2. revered 
+            3. type 
+
+    2. unordered list 
+        ->tags in order List  
+            1. <ul></ul>
+            2. <li></li>
+        ->attribute in unordered list
+            1. type 
+    3. description list 
+        ->tags in description List  
+            1. <dl></dl> ->description list
+            2. <dt></dt> ->description term
+            3. <dd></dd> ->description data
+       
+    4. nested list 
+        ->List having another List 
+
+
+
+Tables in HTML : 
+----------------
+    ->Table tags
+        1. <table> </table>
+        2. <tr> </tr>
+        3. <td> </td>
+        4. <th> </th>
+        5. <tbody> </tbody>
+        6. <thead> </thead>
+        7. <tfoot></tfoot>
+        8. <colgroup> </colgroup>
+        9. <col> 
+
+    ->Table attribute 
+        1. border 
+        2. cellspacing 
+        3. cellpadding 
+        4. bgcolor
+        5. align 
+
+        6. colspan : used to marge columns the table 
+        7. rowspan : used to marge rows in table
+
+
+
+Form HTML : 
+-----------
+    ->form tags 
+        1. <form></form>
+        2. <fieldset></fieldset>
+        3. <label></label>
+        4. <legend></legend> 
+        5. <input> 
+        6. <button></button>
+        7. <textarea></textarea>
+        8. <select></select>
+
+    input validation attributes : 
+        1. required 
+        2. max-length 
+        3. min-length
+        4. max
+        5. min 
+        6. placeholder 
+        7. type 
+        8. name 
+        9. pattern
+        10. id 
+        11. class 

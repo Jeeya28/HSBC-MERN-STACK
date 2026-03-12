@@ -1,0 +1,234 @@
+Web applications
+-----------------
+
+->Types of Web applications 
+    1. Static Web applications 
+        -> HTML , CSS (doesn't have Functionalities ) 
+    2. Dynamic Web applications
+        ->HTML , CSS , Javascript (any applications having Functionalities )
+
+
+              ->Web Pages 
+
+
+HTML : 
+-------
+     
+
+HTML Elements 
+     1. Block Level Elements 
+        Ex: heading Tags > 6
+     2. InLine Level Elements 
+        ->Elements which will consumes only Content Width 
+         
+         Ex: formatting tags 
+                    1. <b></b>
+                    2. <strong ></strong>
+                    3.<em></em>
+                    4. <i></i>
+                    5. <sub></sub>
+                    6. <sup></sup>
+                    7. <u></u>
+                    8. <mark></mark>
+                    9. <strike></strike>
+
+attribute in HTML: 
+--------------------
+    ->Additional information give to the tag 
+    ->only in opening that i need to write to attributes 
+
+        Ex: <h1 algin="center">   HELLO </h1>
+
+
+List In HTML : 
+--------------
+    1. order list 
+        ->tags in order List  
+            1. <ol></ol>
+            2. <li></li>
+        ->attribute in order list
+            1. start 
+            2. revered 
+            3. type 
+
+    2. unordered list 
+        ->tags in order List  
+            1. <ul></ul>
+            2. <li></li>
+        ->attribute in unordered list
+            1. type 
+    3. description list 
+        ->tags in description List  
+            1. <dl></dl> ->description list
+            2. <dt></dt> ->description term
+            3. <dd></dd> ->description data
+       
+    4. nested list 
+        ->List having another List 
+
+
+
+Tables in HTML : 
+----------------
+    ->Table tags
+        1. <table> </table>
+        2. <tr> </tr>
+        3. <td> </td>
+        4. <th> </th>
+        5. <tbody> </tbody>
+        6. <thead> </thead>
+        7. <tfoot></tfoot>
+        8. <colgroup> </colgroup>
+        9. <col> 
+
+    ->Table attribute 
+        1. border 
+        2. cellspacing 
+        3. cellpadding 
+        4. bgcolor
+        5. align 
+
+        6. colspan : used to marge columns the table 
+        7. rowspan : used to marge rows in table
+
+
+
+Form HTML : 
+-----------
+    ->form tags 
+        1. <form></form>
+        2. <fieldset></fieldset>
+        3. <label></label>
+        4. <legend></legend> 
+        5. <input> 
+        6. <button></button>
+        7. <textarea></textarea>
+        8. <select></select>
+
+    input validation attributes : 
+        1. required 
+        2. max-length 
+        3. min-length
+        4. max
+        5. min 
+        6. placeholder 
+        7. type 
+        8. name 
+        9. pattern
+        10. id 
+        11. class 
+
+
+        input type attribute values : 
+        -----------------------------
+            1. text 
+            2. password 
+            3. email 
+            4. date 
+            5. week 
+            6. month 
+            7. year 
+            8. file 
+            9. radio  
+            10. range 
+            11. checkbox 
+            12. url 
+            13. button
+            14. submit 
+            15. reset 
+            16. number 
+            17. tel
+            18. datetime-local 
+
+Marquee tag: 
+-----------
+    ->is used to scroll the content in the web page 
+    
+    Marquee tag attribute: 
+         1. direction :left , right , up , down
+         2. behavior   : scroll , slide , alternate
+         3. scrollamount
+         4. Width 
+         5. height 
+         6. bgcolor
+         7. loop
+
+
+Multi Media tags : 
+-----------------
+ ->Media tags are used to display images , videos , audios or embed the external webpages , websites , youtube videos ..etc
+    
+    1. img  
+        ->img tag are use display image on the web page 
+        ->img tag attributes: 
+            1. src (source): 
+                    ->src will image address / image path as a value 
+                        i. absolute path (browser image address)
+                        ii.relative path (local image address)
+
+
+            2. height 
+            3. Width
+            4. alt 
+
+
+    2. video 
+        -> <video></video> is used to display videos on the web page 
+        -> <video> </video> will work when is contains 'controls'
+
+        ->video tag attributes
+            1. src 
+            2. controls
+            3. autoplay
+            4. muted 
+            5. height 
+            6. Width
+            7. loop
+
+
+    3. audio 
+        -> <audio></audio> is used to display audio's on the web page 
+        -> <audio> </audio> will work when is contains 'controls'
+
+        ->audio tag attributes
+            1. src 
+            2. controls
+            3. autoplay
+            4. muted 
+            7. loop
+
+    4. iframe
+        -><iframe></iframe> is used to embed the youtube videos , google maps , websites or web pages , documents
+        ->iframe tag attributes: 
+            1. src 
+            2. frameborder
+            3. height 
+            4. Width
+
+Semantic Tags: 
+---------------
+    ->Semantic are introduced in HTML version 5 
+    ->Semantic are used to structure of the web page
+    ->Advantage 
+        1. increase readability (developer point of view)
+        2. SEO (search engine optimization) 
+
+
+    Tags : 
+        1. <nav></nav>
+        2. <main></main>
+        3. <header></header>
+        4. <footer></footer>
+        5. <section></section>
+        6. <details></details>
+        7. <figure></figure>
+        8. <article></article>
+        9. <aside></aside>
+        10. <strong></strong>
+        11. <em></em>
+
+
+
+<p></p>
+<div></div>
+<span></span>

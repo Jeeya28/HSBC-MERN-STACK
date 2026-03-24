@@ -1,0 +1,55 @@
+const Users = require("../model/UserModel");
+const bcrypt = require("bcrypt");
+//register
+const register = async (req, res) => {
+  try {
+    const { name, email, phone, gender, state, password, address } = req.body;
+    const hashedPassword = await bcrypt.hash(password, 10);
+
+    await Users.insertOne({
+      name: name,
+      email: email,
+      phone: phone,
+      gender: gender,
+      state: state,
+      password: hashedPassword,
+      address: address,
+    });
+    res.status(200).json({ message: "Register successfully" });
+  } catch (error) {
+    res.status(500).json({ message: "server not found failed to register" });
+  }
+};
+
+// login
+
+const login = async (req, res) => {
+  try {
+    const { username, password } = req.body;
+    const foundUser = await Users.findOne({ email: username });
+
+    const comparedPassword = await bcrypt.compare(password, foundUser.password);
+    if (!comparedPassword) {
+      res.status(401).json({ message: "Please enter correct password" });
+    }
+
+    res.status(200).json({ message: "Login Successful" });
+  } catch (error) {
+    res.status(500).json({ message: "failed to login " });
+  }
+};
+
+//get all users
+const getAllUsers = async (req, res) => {
+  try {
+    const registeredUsers = await Users.find();
+    if (!registeredUsers) {
+      res.status(400).json({ message: "Users not Found" });
+    }
+    res.status(200).json({ registeredUsers });
+  } catch (error) {
+    res.status(500).json({ message: "server not found " });
+  }
+};
+
+module.exports = { register, login, getAllUsers };
